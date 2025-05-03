@@ -53,22 +53,7 @@
     <version>4.31.0</version>
 </dependency>
 
-  	<dependency>
-  		<groupId>Ecommerce</groupId>
-  		<artifactId>EcommerceAID</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>GuviTask</groupId>
-  		<artifactId>GuviTask</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>GPID</groupId>
-  		<artifactId>ARTID</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+  	 </dependencies>
   <build>
 <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
 <plugins>
@@ -79,7 +64,7 @@
 <configuration>
 <suiteXmlFiles>
 <suiteXmlFile>testng.xml</suiteXmlFile>
-<suiteXmlFile>testngseq.xml</suiteXmlFile>
+
 </suiteXmlFiles>
 </configuration>
 </plugin>
